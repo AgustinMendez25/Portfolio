@@ -1,0 +1,37 @@
+{
+    "header": {
+        "portfolio":"Portafolio",
+        "about":"SOBRE MÍ",
+        "skills":"HABILIDADES",
+        "projects":"PROYECTOS",
+        "contact":"CONTACTO",
+        "projectsBtn":"Ver proyectos"
+    },
+    "aboutme":{
+        "title": "Sobre Mí",
+        "paragraph1": "Hola, soy Agustín Mendez, un joven programador backend apasionado por el código y la resolución de problemas lógicos complejos. Me esfuerzo por abordar cada tarea con gran dedicación y análisis para encontrar soluciones óptimas. Asimismo, me considero una persona organizada y responsable, lo cual se traslada a mi forma de trabajar, buscando continuamente la manera más prolija y eficiente de resolver los desafíos que se presentan.",
+        "paragraph2": "Me gradué en 2022 de la Escuela Técnica 32 \"General José de San Martín\" con orientación en computación, donde inicié mi camino en la programación y la tecnología. Actualmente, estoy cursando la carrera de \"Tecnología Digital\" en la Universidad Don Torcuato Di Tella, para la cual cuento con una beca completa. Además, trabajo a jornada parcial en Salesforce, especializándome en el desarrollo backend empleando el lenguaje Apex.",
+        "paragraph3": "Mi objetivo es seguir creciendo como profesional en el área de backend, adquiriendo conocimientos más profundos y especializados con el fin de consolidarme como un experto en el sector."
+    },
+    "skills":{
+        "title":"Mis Habilidades",
+        "technologies":"Tecnologías",
+        "releaseTools":"Release Tools",
+        "languages":"Idiomas"
+    },
+    "projects":{
+        "title":"Mis Proyectos"
+    },
+    "contact":{
+        "title":"¡Contáctame!",
+        "subtitle": "Medios de contacto"
+    },
+    "sf-fieldsdinamicos":{
+        "title":"¡Contáctame!",
+        "description": "Medios de contacto",
+        "item1": "Medios de contacto",
+        "body1": "Medios de contacto",
+        "item2": "Medios de contacto",
+        "body2": "Medios de contacto"
+    }
+}

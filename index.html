@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#" lang="en">
+  <head>
+    <title>Mendez Agustín - Portfolio</title>
+    <meta charset="UTF-8">
+    <!-- Facebook meta tags-->
+    <meta property="og:title" content="Mendez Agustín - Portfolio">
+    <meta property="og:image" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Mendez Agustín - Portfolio">
+    <!-- Responsive meta tag-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-compatible" content="IE=Edge">
+    <!-- Description and keywords for search engines-->
+    <meta name="description" content="This is my portfolio">
+    <meta name="keywords" content="Portfolio Backend Developer">
+    <meta name="msapplication-TileColor" content="#cdcec0">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Style sheets-->
+    <link rel="stylesheet" href="assets/css/all.css">
+    <link rel="stylesheet" href="assets/css/extra.css">
+    <link rel="stylesheet" href="assets/css/buttons.css">
+    <!-- font-->
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,700" rel="stylesheet" type="text/css">
+    <!-- icons-->
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+  </head>
+  <body>
+    <header data-section="header">
+      <div class="overlay-nav hidden">
+        <ul class="mobile">
+          <li><a href="#">HOME</a></li>
+        </ul>
+        <ul class="mobile">
+          <li><a href="#aboutMeSection" class="about" data-value="about">ABOUT ME</a></li>
+        </ul>
+        <ul class="mobile">
+          <li><a href="#skillsSection" class="work" data-value="skills">SKILLS</a></li>
+        </ul>
+        <ul class="mobile">
+          <li><a href="#projectsSection" class="work" data-value="projects">PROJECTS</a></li>
+        </ul>
+        <ul class="mobile">
+          <li><a href="#contactSection" class="contact-nav" data-value="contact">CONTACT</a></li>
+        </ul>
+        <ul class="mobile" id="languagesMobile">
+          <li data-language="es">Español</li>
+          <li data-language="en">English</li>
+        </ul>
+        <div class="close"></div>
+      </div>
+      <div class="container">
+        <div class="navContainer">
+          <div id="logo" data-value="portfolio">Portfolio</div>
+          <nav><a id="toggle" href="#"><i class="fa fa-bars fa-2x"></i></a>
+            <ul class="in">
+              <li><a href="#">HOME</a></li>
+            </ul>
+            <ul class="in">
+              <li><a href="#aboutMeSection" class="about" data-value="about">ABOUT ME</a></li>
+            </ul>
+            <ul class="in">
+              <li><a href="#skillsSection" class="work" data-value="skills">SKILLS</a></li>
+            </ul>
+            <ul class="in">
+              <li><a href="#projectsSection" class="work" data-value="projects">PROJECTS</a></li>
+            </ul>
+            <ul class="in">
+              <li><a href="#contactSection" class="contact-nav" data-value="contact">CONTACT</a></li>
+            </ul>
+            <ul class="in" id="languages">
+              <div class="languages-container">
+                <li data-language="es">Español<img src="assets/icons/lang-es.png"></li>
+                <li data-language="en">English<img src="assets/icons/lang-en.png"></li>
+              </div>
+            </ul>
+          </nav>
+        </div>
+        <h1 id="jumbotron">Agustín Mendez</h1>
+        <h2 id="supporting-header">Backend Developer</h2>
+        <a href="#projectsSection" class="btn see-projects-btn" data-value="projectsBtn">See projects</a>
+      </div>
+    </header>
+    <main>
+      <section id="aboutMeSection" data-section="aboutme">
+        <div class="container">
+          <h1 class="port" data-value="title">About Me</h1>
+          <div class="self-pic"></div>
+          <p class="about-para" data-value="paragraph1">I'm Agustín Mendez, a young backend developer with a deep passion for coding and problem-solving. I approach every task with meticulous analysis, aiming to develop efficient and well-structured solutions. I focus on working with organization and responsibility, always trying to overcome challenges in the most effective way.</p>
+          <p class="about-para" data-value="paragraph2">I graduated in 2022 from Technical School N°32 "General José de San Martín" with a focus on IT, where my journey into programming and technology began. I'm currently pursuing a degree in "Digital Technology" at Universidad Torcuato Di Tella, where I am on a full scholarship. In addition to my studies, I work part-time with Salesforce, specially focused on backend tasks using Apex programming language.</p>
+          <p class="about-para" data-value="paragraph3">My ambition is to continue growing as a backend developer, expanding my knowledge day by day in order to become an expert in this field.</p>
+        </div>
+      </section>
+      <section id="skillsSection" data-section="skills">
+        <h2 class="port" data-value="title">My Skills</h2>
+        <!-- Skills data filled with JS -->
+        <div class="container">
+          <h3 data-value="technologies">Technologies</h3>
+          <div id="skillsContainer"></div>
+          <h3 data-value="releaseTools">Release Tools</h3>
+          <div id="releaseSkillsContainer"></div>
+          <h3 data-value="languages">Languages</h3>
+          <div id="languagesContainer"></div>
+        </div>
+      </section>
+      <section id="projectsSection" data-section="projects">
+        <h2 class="port" style="margin-bottom:36px" data-value="title">My Projects</h2>
+        <!-- Projects data filled with JS -->
+        <div id="projectsContainer"></div>
+      </section>
+    </main>
+    <section class="grey" id="contactSection" data-section="contact">
+      <div class="container">
+        <h2 class="contact" data-value="title">Contact Me!</h2>
+        <p class="contact" data-value="subtitle">Feel free to reach out to me!</p>
+        <div class="flex">
+          <div class="social-media">
+            <a class="imagewithtext-block" target="_blank" href="https://www.linkedin.com/in/agust%C3%ADn-mendez-908885199/"><i class="fa fa-linkedin-square" aria-hidden="true"></i>Linkedin</a>
+            <a class="imagewithtext-block" target="_blank" href="mailto:aguslumendez@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i>Email</a>
+            <a class="imagewithtext-block" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i>+54 011 2316-8096</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+        <p class="foot">&copy; Agustín Mendez 2025</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/dataController.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/animations.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

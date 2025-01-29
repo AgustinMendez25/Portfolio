@@ -1,0 +1,29 @@
+{
+    "header": {
+        "portfolio":"Portfolio",
+        "about":"ABOUT ME",
+        "skills":"SKILLS",
+        "projects":"PROJECTS",
+        "contact":"CONTACT",
+        "projectsBtn":"See Projects"
+    },
+    "aboutme":{
+        "title": "About Me",
+        "paragraph1": "I'm Agustín Mendez, a young backend developer with a deep passion for coding and problem-solving. I approach every task with meticulous analysis, aiming to develop efficient and well-structured solutions. I focus on working with organization and responsibility, always trying to overcome challenges in the most effective way.",
+        "paragraph2": "I graduated in 2022 from Technical School N°32 \"General José de San Martín\" with a focus on IT, where my journey into programming and technology began. I'm currently pursuing a degree in \"Digital Technology\" at Universidad Torcuato Di Tella, where I am on a full scholarship. In addition to my studies, I work part-time with Salesforce, specially focused on backend tasks using Apex programming language.",
+        "paragraph3": "My ambition is to continue growing as a backend developer, expanding my knowledge day by day in order to become an expert in this field."
+    },
+    "skills":{
+        "title":"My Skills",
+        "technologies":"Technologies",
+        "releaseTools":"Release Tools",
+        "languages":"Languages"
+    },
+    "projects":{
+        "title":"My Projects"
+    },
+    "contact":{
+        "title":"Contact Me!",
+        "subtitle": "Feel free to reach out to me!"
+    }
+}

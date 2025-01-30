@@ -19,7 +19,7 @@ $(document).ready(function() {
   $('.about').click(function() {
     $('html, body').animate({
       scrollTop: $('.self-pic').offset().top
-    }, 1200);
+    }, 10);
   });
 });
 
@@ -28,7 +28,7 @@ $(document).ready(function() {
   $('.work').click(function() {
     $('html, body').animate({
       scrollTop: $('.flex').offset().top
-    }, 1200);
+    }, 10);
   });
 });
 
@@ -37,7 +37,7 @@ $(document).ready(function() {
   $('.contact-nav').click(function() {
     $('html, body').animate({
       scrollTop: $('.contact').offset().top
-    }, 1200);
+    }, 10);
   });
 });
 
@@ -46,7 +46,7 @@ $(document).ready(function() {
   $('.work').click(function() {
     $('html, body').animate({
       scrollTop: $('.flex').offset().top
-    }, 1200);
+    }, 10);
   });
 });
 

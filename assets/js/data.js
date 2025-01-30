@@ -87,7 +87,7 @@ let languages = [
 
 let projectsES = [
     {
-        'img':'assets/icons/salesforce.png',
+        'img':'assets/img/projects/Salesforce.png',
         'title':'Proyectos varios',
         'subtitle': 'Salesforce',
         'year':'2023',
@@ -95,7 +95,7 @@ let projectsES = [
         'openCode' : false,
         'buttonLabel' : 'Information',
         'codeIcon' : 'M19,8V7A7,7,0,0,0,5,7V8H2V21a3,3,0,0,0,3,3H19a3,3,0,0,0,3-3V8ZM7,7A5,5,0,0,1,17,7V8H7ZM20,21a1,1,0,0,1-1,1H5a1,1,0,0,1-1-1V10H20Z',
-        'description':'Proyectos de salesforce ................',
+        'description':'Recopilado de porciones de código utilizadas en diversos proyectos en Salesforce. La mayoría de ellos se relacionan con tareas de backend empleando apex, junto con su conexión con el front-end mediante JavaScript, aunque también trabajé en la parte visual utilizando LWCs y herramientas de Omnistudio y Vlocity.',
         'projectUrl': 'salesforce_projects.html',
         'projectUrlTarget': '_blank',
         'participationList':[
@@ -217,15 +217,39 @@ let projectsES = [
 
 let projectsEN = [
     {
-        'img':'assets/icons/salesforce.png',
+        'img':'assets/img/projects/Portfolio_Page.png',
+        'title':'Mi Portfolio',
+        'subtitle': 'Proyecto personal',
+        'year':'2025',
+        'titleIcon': './assets/icons/portfolio.png',
+        'openCode' : true,
+        'buttonLabel' : 'Project',
+        'codeIcon' : 'M24 12l-5.657 5.657-1.414-1.414L21.172 12l-4.243-4.243 1.414-1.414L24 12zM2.828 12l4.243 4.243-1.414 1.414L0 12l5.657-5.657L7.07 7.757 2.828 12zm6.96 9H7.66l6.552-18h2.128L9.788 21z',
+        'description':'Portofolio personal con el objetivo de mostrar los proyectos en los que trabajé y brindar mayores detalles acerca de mis habilidades.',
+        'projectUrl': 'index.html',
+        'projectUrlTarget': '',
+        'codeUrl': 'https://github.com/AgustinMendez25/Portfolio',
+        'participationList':[
+            'Análisis Funcional',
+            'Análisis Técnico',
+            'Desarrollo Backend'
+        ],
+        'technologiesList':[
+            {'nombre': 'HTML', 'img': './assets/icons/code.png'},
+            {'nombre': 'CSS', 'img': './assets/icons/css.png'},
+            {'nombre': 'JS', 'img': './assets/icons/java-script.png'}
+        ]
+    },
+    {
+        'img':'assets/img/projects/Salesforce.png',
         'title':'Proyectos varios',
         'subtitle': 'En Salesforce',
         'year':'2023-2025',
         'titleIcon': './assets/icons/salesforce.png',
         'openCode' : false,
-        'buttonLabel' : 'Information',
+        'buttonLabel' : 'Demo',
         'codeIcon' : 'M19,8V7A7,7,0,0,0,5,7V8H2V21a3,3,0,0,0,3,3H19a3,3,0,0,0,3-3V8ZM7,7A5,5,0,0,1,17,7V8H7ZM20,21a1,1,0,0,1-1,1H5a1,1,0,0,1-1-1V10H20Z',
-        'description':'Proyectos de salesforce ................',
+        'description':'Recopilado de porciones de código utilizadas en diversos proyectos en Salesforce. La mayoría de ellos se relacionan con tareas de backend empleando apex, junto con su conexión con el front-end mediante JavaScript, aunque también trabajé en la parte visual utilizando LWCs y herramientas de Omnistudio y Vlocity.',
         'projectUrl': 'salesforce_projects.html',
         'projectUrlTarget': '',
         'participationList':[

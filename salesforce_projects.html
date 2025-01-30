@@ -30,45 +30,62 @@
     <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
   </head>
   <body>
-    <header>
+    <header data-section="header">
       <div class="overlay-nav hidden">
         <ul class="mobile">
-          <li><a href="/">HOME</a></li>
+          <li><a href="index.html#">HOME</a></li>
         </ul>
         <ul class="mobile">
-          <li><a href="index.html#" class="about">ABOUT</a></li>
+          <li><a href="index.html#aboutMeSection" class="about" data-value="about">ABOUT ME</a></li>
         </ul>
         <ul class="mobile">
-          <li><a href="index.html#" class="work">WORK</a></li>
+          <li><a href="index.html#skillsSection" class="work" data-value="skills">SKILLS</a></li>
         </ul>
         <ul class="mobile">
-          <li><a href="index.html#" class="contact-nav">CONTACT</a></li>
+          <li><a href="index.html#projectsSection" class="work" data-value="projects">PROJECTS</a></li>
+        </ul>
+        <ul class="mobile">
+          <li><a href="index.html#contactSection" class="contact-nav" data-value="contact">CONTACT</a></li>
         </ul>
         <div class="close"></div>
       </div>
       <div class="container">
         <div class="navContainer">
-          <div id="logo">Portfolio</div>
-          <nav><a id="toggle" href="index.html#"><i class="fa fa-bars fa-2x"></i></a>
+          <div id="logo" data-value="portfolio">Portfolio</div>
+          <nav>
+            <ul class="mobile" id="languagesMobile">
+              <div class="languages-container">
+                <li data-language="es">ES<img data-language="es" src="assets/icons/lang-es.png"></li>
+                <li data-language="en">EN<img data-language="en" src="assets/icons/lang-en.png"></li>
+              </div>
+            </ul>
+            <a id="toggle" href="#"><i class="fa fa-bars fa-2x"></i></a>
             <ul class="in">
-              <li><a href="/">HOME</a></li>
+              <li><a href="index.html#">HOME</a></li>
             </ul>
             <ul class="in">
-              <li><a href="index.html#aboutMeSection" class="about">ABOUT ME</a></li>
+              <li><a href="index.html#aboutMeSection" class="about" data-value="about">ABOUT ME</a></li>
             </ul>
             <ul class="in">
-              <li><a href="index.html#skillsSection" class="work">SKILLS</a></li>
+              <li><a href="index.html#skillsSection" class="work" data-value="skills">SKILLS</a></li>
             </ul>
             <ul class="in">
-              <li><a href="index.html#projectsSection" class="work">PROJECTS</a></li>
+              <li><a href="index.html#projectsSection" class="work" data-value="projects">PROJECTS</a></li>
             </ul>
             <ul class="in">
-              <li><a href="index.html#contactSection" class="contact-nav">CONTACT</a></li>
+              <li><a href="index.html#contactSection" class="contact-nav" data-value="contact">CONTACT</a></li>
+            </ul>
+            <ul class="in" id="languages">
+              <div class="languages-container">
+                <li data-language="es">Español<img data-language="es" src="assets/icons/lang-es.png"></li>
+                <li data-language="en">English<img data-language="en" src="assets/icons/lang-en.png"></li>
+              </div>
             </ul>
           </nav>
         </div>
-        <h1 id="jumbotron">Salesforce Projects</h1>
-        <a href="index.html#projectsSection" class="btn see-projects-btn">See other projects</a>
+        <h1 id="jumbotron">Agustín Mendez</h1>
+        <h2 id="supporting-header">Backend Developer</h2>
+        <a href="index.html#projectsSection" class="btn see-projects-btn" data-value="projectsBtn">See other projects</a>
       </div>
     </header>
     <main>
@@ -104,10 +121,10 @@
         </div>
       </section>
     </main>
-    <section class="grey" id="contactSection">
+    <section class="grey" id="contactSection" data-section="contact">
       <div class="container">
-        <h2 class="contact">Contact Me!</h2>
-        <p class="contact">Feel free to reach out to me!</p>
+        <h2 class="contact" data-value="title">Contact Me!</h2>
+        <p class="contact" data-value="subtitle">Feel free to reach out to me!</p>
         <div class="flex">
           <div class="social-media">
             <a class="imagewithtext-block" target="_blank" href="https://www.linkedin.com/in/agust%C3%ADn-mendez-908885199/"><i class="fa fa-linkedin-square" aria-hidden="true"></i>Linkedin</a>
@@ -121,8 +138,9 @@
         <p class="foot">&copy; Agustín Mendez 2025</p>
     </footer>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <script src="assets/js/main.js"></script>
     <script src="assets/js/data.js"></script>
+    <script src="assets/js/dataController.js"></script>
+    <script src="assets/js/main.js"></script>
     <script src="assets/js/animations.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>

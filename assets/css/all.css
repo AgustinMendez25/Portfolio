@@ -584,7 +584,7 @@ nav {
 }
 
 .close {
-  margin-top: -17em;
+  margin-top: -12em;
   margin-left: 1em;
   display: inline;
   width: 10%;
@@ -1040,32 +1040,6 @@ nav {
 .hidden {
   visibility: none;
   display: none;
-}
-
-/* Overlay for mobile navigation and close button */
-.overlay-nav {
-  background-color: #cdcec0;
-  z-index: 999;
-  min-width: 100%;
-  height: 100%;
-  position: fixed;
-  opacity: 0.9;
-}
-
-.close {
-  margin-top: -17em;
-  margin-left: 1em;
-  display: inline;
-  width: 10%;
-  clear: both;
-  position: fixed;
-  height: 70px;
-  width: 70px;
-  overflow: hidden;
-  background-image: url(../img/cross.png);
-  background-repeat: no-repeat;
-  z-index: 1000;
-  cursor: pointer;
 }
 
 /* footer styles */

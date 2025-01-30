@@ -37,10 +37,10 @@ function getProjectsTemplate(data) {
         // add initial template
         template += `
         <div class="row project">
-          <div class="col-md-12 col-lg-4" style="margin: auto">
-            <img src="${project.img}" alt="" style="border:solid 1px #bab7b7">
+          <div class="col-md-12 col-lg-5 col-xl-4" style="margin: auto">
+            <img class="project-image" src="${project.img}" alt="" style="border:solid 1px #bab7b7">
           </div>
-          <div class="col-md-12 col-lg-8 project-data">
+          <div class="col-md-12 col-lg-7 col-xl-8 project-data">
             <div class="row project-header">
               <div>
                 <h4>${project.title} <img class="projectIcon" src="${project.titleIcon}" alt=""></h4>

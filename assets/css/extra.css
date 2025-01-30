@@ -63,6 +63,26 @@ p{
     color: rgba(255, 255, 255, 0.7);
 }
 
+@media (max-width: 1008px) {
+    .languages-container{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-right: 14px;
+        margin-top: 3px;
+        gap: 8px;
+    }
+    .languages-container li{
+        font-size: 12px;
+        gap:4px;
+        font-weight: 500;
+    }
+    .languages-container img {
+        width: 24px;
+        height: 24px;
+    }
+}
+
 #skillsSection span{
     font-size: 24px;
 }
@@ -119,12 +139,6 @@ section h3{
     margin-bottom: 0.8em;
 }
 
-.project img {
-    max-height: 48em;
-    max-width: 22em;
-}
-
-
 /* PROJECTS SECTION */
 
 #projectsContainer {
@@ -152,7 +166,7 @@ section h3{
 }
 
 .project img{
-    width: max-content;
+    width: 100%;
     height: max-content;
 }
 
@@ -216,4 +230,10 @@ section h3{
     display: flex;
     gap: 4px;
     align-items: center;
+}
+
+@media (max-width: 990px) {
+    .project img{
+        margin-bottom: 12px;
+    }
 }

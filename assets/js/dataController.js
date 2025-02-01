@@ -54,7 +54,7 @@ function getProjectsTemplate(data) {
               <p>${project.description}</p>
             </div>
             <div class="row" style="justify-content:space-between">
-              <div class="col-md-12 col-lg-6 techsProject">`;
+              <div class="col-md-12 col-lg-5 col-xl-6 techsProject">`;
         
         // add technologies
         let technologiesList = '';
@@ -65,8 +65,8 @@ function getProjectsTemplate(data) {
         // add end
         template += technologiesList + `
                         </div>
-              <div class="col-md-12 col-lg-6 projectButtons">
-                ` + (project.openCode ? `<a href="${project.codeUrl}" target="_blank">` : ``) + `
+              <div class="col-md-12 col-lg-7 col-xl-6 projectButtons">
+                ` + (project.openCode ? `<a href="${project.codeUrl}" target="_blank">` : `<div class="a-noref">`) + `
                     <button class="cssbuttons-io ${project.openCode ? 'open-code' : 'close-code'}">
                         <span>
                             <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -75,7 +75,7 @@ function getProjectsTemplate(data) {
                             Code
                         </span>
                     </button>
-                ` + (project.openCode ? `</a>` : ``) + `
+                ` + (project.openCode ? `</a>` : `</div>`) + `
                 <a href="${project.projectUrl}" target="${project.projectUrlTarget}">
                     <button class="cssbuttons-io">
                     <span>

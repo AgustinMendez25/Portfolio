@@ -5,7 +5,8 @@
         "skills":"SKILLS",
         "projects":"PROJECTS",
         "contact":"CONTACT",
-        "projectsBtn":"See Projects"
+        "projectsBtn":"See projects",
+        "otherProjectsBtn":"See other projects"
     },
     "aboutme":{
         "title": "About Me",
@@ -25,5 +26,13 @@
     "contact":{
         "title":"Contact Me!",
         "subtitle": "Feel free to reach out to me!"
+    },
+    "sf-fieldsdinamicos":{
+        "title":"Dynamic Fields Implementation",
+        "description": "Dynamic system used for implementations that require modifying fields and objects dinamicaly without making changes in the existent code. This design was implemented in several Salesforce projects that needed to follow this structure under the mentioned conditions. <br> Some parts of the developed code are detailed below:",
+        "item1": "Object's List",
+        "body1": "From a list of objects where data is being searched and the names of it's fields, this implementation gets each object and each set of fields (their lookups are preserved using dots, for example: Account.PRimaryContact.LastName). For each field, the recursive function getRelationField retrieves the field's information.",
+        "item2": "Recursive Function getRelationField",
+        "body2": "Given an object and a field that can have as many lookups as needed, this recursive function retrieves the field from the object and returns its value. In each recursive iteration, the next lookup is retrieved until the final field is reached, where the expected data is returned. <br> If the field is not found, the function returns null."
     }
 }

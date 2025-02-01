@@ -197,6 +197,10 @@ section h3{
     margin: 8px;
 }
 
+.a-noref button{
+    padding: 0;
+}
+
 .project-header {
     display: flex;
     flex-direction: row;

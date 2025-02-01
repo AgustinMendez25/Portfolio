@@ -1,11 +1,12 @@
 {
     "header": {
-        "portfolio":"Portafolio",
+        "portfolio":"Portfolio",
         "about":"SOBRE MÍ",
         "skills":"HABILIDADES",
         "projects":"PROYECTOS",
         "contact":"CONTACTO",
-        "projectsBtn":"Ver proyectos"
+        "projectsBtn":"Ver proyectos",
+        "otherProjectsBtn":"Ver otros proyectos"
     },
     "aboutme":{
         "title": "Sobre Mí",
@@ -27,11 +28,11 @@
         "subtitle": "Medios de contacto"
     },
     "sf-fieldsdinamicos":{
-        "title":"¡Contáctame!",
-        "description": "Medios de contacto",
-        "item1": "Medios de contacto",
-        "body1": "Medios de contacto",
-        "item2": "Medios de contacto",
-        "body2": "Medios de contacto"
+        "title":"Sistema de Campos Dinámicos",
+        "description": "Desarrollo pensado para una estructura de proyecto que necesite un sistema dinámico en el cual se puedan modificar los objetos y campos que se utilizan sin tener que modificar el código fuente. Este diseño se implementó en varios proyectos de Salesforce que requerían cumplir estas condiciones. <br> A continuación se muestra una parte del código desarrollado:",
+        "item1": "Listado de objetos",
+        "body1": "Dada una lista de objetos donde se buscarán los datos y los nombres de sus correspondientes campos, se recorre cada objeto y cada serie de campos (sus lookups se respetan utilizando puntos, por ejemplo: Account.PrimaryContact.LastName). Para cada campo, se resuelve la búsqueda mediante la función recursiva getRelationField.",
+        "item2": "Función recursiva getRelationField",
+        "body2": "Dado un objeto y un campo que puede tener tantos lookups como se desee, esta función recursiva obtiene el campo del objeto y lo devuelve. Para ello, en cada vuelta de la recursión se obtiene el lookup siguiente hasta llegar al final, donde se devuelve el dato esperado. <br>En caso de no ser encontrado, devuelve nulo."
     }
 }

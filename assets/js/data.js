@@ -90,160 +90,6 @@ let projectsES = [
         'img':'assets/img/projects/Salesforce.png',
         'title':'Proyectos varios',
         'subtitle': 'Salesforce',
-        'year':'2023',
-        'titleIcon': './assets/icons/salesforce.png',
-        'openCode' : false,
-        'buttonLabel' : 'Information',
-        'codeIcon' : 'M19,8V7A7,7,0,0,0,5,7V8H2V21a3,3,0,0,0,3,3H19a3,3,0,0,0,3-3V8ZM7,7A5,5,0,0,1,17,7V8H7ZM20,21a1,1,0,0,1-1,1H5a1,1,0,0,1-1-1V10H20Z',
-        'description':'Recopilado de porciones de código utilizadas en diversos proyectos en Salesforce. La mayoría de ellos se relacionan con tareas de backend empleando apex, junto con su conexión con el front-end mediante JavaScript, aunque también trabajé en la parte visual utilizando LWCs y herramientas de Omnistudio y Vlocity.',
-        'projectUrl': 'salesforce_projects.html',
-        'projectUrlTarget': '_blank',
-        'participationList':[
-            'Análisis Funcional',
-            'Análisis Técnico',
-            'Desarrollo Backend'
-        ],
-        'technologiesList':[
-            {'nombre': 'Salesforce', 'img': './assets/icons/salesforce.png'},
-            {'nombre': 'Apex', 'img': './assets/icons/apex.png'},
-            {'nombre': 'Vlocity', 'img': './assets/icons/vlocity.png'},
-            {'nombre': 'HTML', 'img': './assets/icons/code.png'},
-            {'nombre': 'CSS', 'img': './assets/icons/css.png'},
-            {'nombre': 'JS', 'img': './assets/icons/java-script.png'}
-        ]
-    },
-    {
-        'img':'assets/img/projects/AyL_Reservas_Page.png',
-        'title':'A&L Eventos Reservas',
-        'subtitle': 'Events Web Administrator',
-        'year':'2022',
-        'titleIcon': './assets/icons/ayl.png',
-        'openCode' : true,
-        'buttonLabel' : 'Demo',
-        'codeIcon': 'M24 12l-5.657 5.657-1.414-1.414L21.172 12l-4.243-4.243 1.414-1.414L24 12zM2.828 12l4.243 4.243-1.414 1.414L0 12l5.657-5.657L7.07 7.757 2.828 12zm6.96 9H7.66l6.552-18h2.128L9.788 21z',
-        'description':'Proyecto para la empresa A&L Eventos, dedicada a servicios de catering y pizza party para eventos. Esta web permite gestionar los eventos del usuario mediante una interfaz sencilla que muestra una tarjeta por cada evento, permitiendo hacer altas, bajas y modificaciones. Se requirió realizar modificaciones en la base de datos existente utilizada en su página web, así como los diseños y funcionamiento correspondiente.',
-        'projectUrl': 'https://ayleventosreservaswebdemo.vercel.app/',
-        'projectUrlTarget': '_blank',
-        'codeUrl': 'https://github.com/AgustinMendez25/AyL_Eventos_Reservas_Web_Demo_Publico',
-        'participationList':[
-            'Análisis Funcional',
-            'Análisis Técnico',
-            'Desarrollo Backend'
-        ],
-        'technologiesList':[
-            {'nombre': 'HTML', 'img': './assets/icons/code.png'},
-            {'nombre': 'CSS', 'img': './assets/icons/css.png'},
-            {'nombre': 'JS', 'img': './assets/icons/java-script.png'},
-            {'nombre': 'PHP', 'img': './assets/icons/php.png'},
-            {'nombre': 'SQL', 'img': './assets/icons/mysql.png'}
-        ]
-    },
-    {
-        'img':'assets/img/projects/AyL_Page.png',
-        'title':'A&L Eventos',
-        'subtitle': 'Business Page',
-        'year':'2021',
-        'titleIcon': './assets/icons/ayl.png',
-        'openCode' : true,
-        'buttonLabel' : 'Project',
-        'codeIcon': 'M24 12l-5.657 5.657-1.414-1.414L21.172 12l-4.243-4.243 1.414-1.414L24 12zM2.828 12l4.243 4.243-1.414 1.414L0 12l5.657-5.657L7.07 7.757 2.828 12zm6.96 9H7.66l6.552-18h2.128L9.788 21z',
-        'description':'Página web de la empresa A&L Eventos, dedicada a servicios de catering y pizza party para eventos. La web cuenta con diversas secciones de información relevante para el cliente, como lo son la sección de novedades, combos, galería y contacto, que permiten conocer perfectamente lo qué brinda la empresa navegando por la página.',
-        'projectUrl': 'https://ayl-eventos.vercel.app/',
-        'projectUrlTarget': '_blank',
-        'codeUrl': 'https://github.com/AgustinMendez25/AyL_Eventos_Publico',
-        'participationList':[
-            'Análisis Funcional',
-            'Análisis Técnico',
-            'Desarrollo Backend'
-        ],
-        'technologiesList':[
-            {'nombre': 'HTML', 'img': './assets/icons/code.png'},
-            {'nombre': 'CSS', 'img': './assets/icons/css.png'},
-            {'nombre': 'JS', 'img': './assets/icons/java-script.png'},
-            {'nombre': 'PHP', 'img': './assets/icons/php.png'},
-            {'nombre': 'SQL', 'img': './assets/icons/mysql.png'}
-        ]
-    },
-    {
-        'img':'assets/img/projects/RPMotos_Page.png',
-        'title':'RPMotos',
-        'subtitle': 'Business Page',
-        'year':'2021',
-        'titleIcon': './assets/icons/RPMotos.png',
-        'openCode' : true,
-        'buttonLabel' : 'Project',
-        'codeIcon': 'M24 12l-5.657 5.657-1.414-1.414L21.172 12l-4.243-4.243 1.414-1.414L24 12zM2.828 12l4.243 4.243-1.414 1.414L0 12l5.657-5.657L7.07 7.757 2.828 12zm6.96 9H7.66l6.552-18h2.128L9.788 21z',
-        'description':'Landing page de contacto de la empresa RPMotos, dedicada a la venta de repuestos de motocicletas. Muestra información breve de contacto.',
-        'projectUrl': 'https://agustinmendez25.github.io/Rpmotos/',
-        'projectUrlTarget': '_blank',
-        'codeUrl': 'https://github.com/AgustinMendez25/Rpmotos',
-        'participationList':[
-            'Análisis Funcional',
-            'Análisis Técnico',
-            'Desarrollo Backend'
-        ],
-        'technologiesList':[
-            {'nombre': 'HTML', 'img': './assets/icons/code.png'},
-            {'nombre': 'CSS', 'img': './assets/icons/css.png'},
-        ]
-    },
-    {
-        'img':'assets/img/projects/RPMotosCompleta_Page.png',
-        'title':'RPMotos E-Commerce',
-        'subtitle': 'E-Commerce',
-        'year':'2021',
-        'titleIcon': './assets/icons/RPMotos.png',
-        'openCode' : true,
-        'buttonLabel' : 'Demo',
-        'codeIcon': 'M24 12l-5.657 5.657-1.414-1.414L21.172 12l-4.243-4.243 1.414-1.414L24 12zM2.828 12l4.243 4.243-1.414 1.414L0 12l5.657-5.657L7.07 7.757 2.828 12zm6.96 9H7.66l6.552-18h2.128L9.788 21z',
-        'description':'Proyecto personal de e-commerce para la empresa RPMotos. Este sitio cuenta con un catalogo de productos desarrollado desde cero que permite filtrar por categorías, orden y nombre de producto. Además, incluye un sistema de inicio de sesión y carrito de compras con el cual se puede navegar y guardar distintos productos para solicitar un presupuesto completo de los mismos.',
-        'projectUrl': 'https://rpmotos-completa.vercel.app/',
-        'projectUrlTarget': '_blank',
-        'codeUrl': 'https://github.com/AgustinMendez25/RpmotosCompleta',
-        'participationList':[
-            'Análisis Funcional',
-            'Análisis Técnico',
-            'Desarrollo Backend'
-        ],
-        'technologiesList':[
-            {'nombre': 'HTML', 'img': './assets/icons/code.png'},
-            {'nombre': 'CSS', 'img': './assets/icons/css.png'},
-            {'nombre': 'JS', 'img': './assets/icons/java-script.png'},
-            {'nombre': 'PHP', 'img': './assets/icons/php.png'},
-            {'nombre': 'SQL', 'img': './assets/icons/mysql.png'}
-        ]
-    }
-]
-
-let projectsEN = [
-    {
-        'img':'assets/img/projects/Portfolio_Page.png',
-        'title':'Mi Portfolio',
-        'subtitle': 'Proyecto personal',
-        'year':'2025',
-        'titleIcon': './assets/icons/portfolio.png',
-        'openCode' : true,
-        'buttonLabel' : 'Project',
-        'codeIcon' : 'M24 12l-5.657 5.657-1.414-1.414L21.172 12l-4.243-4.243 1.414-1.414L24 12zM2.828 12l4.243 4.243-1.414 1.414L0 12l5.657-5.657L7.07 7.757 2.828 12zm6.96 9H7.66l6.552-18h2.128L9.788 21z',
-        'description':'Portofolio personal con el objetivo de mostrar los proyectos en los que trabajé y brindar mayores detalles acerca de mis habilidades.',
-        'projectUrl': 'index.html',
-        'projectUrlTarget': '',
-        'codeUrl': 'https://github.com/AgustinMendez25/Portfolio',
-        'participationList':[
-            'Análisis Funcional',
-            'Análisis Técnico',
-            'Desarrollo Backend'
-        ],
-        'technologiesList':[
-            {'nombre': 'HTML', 'img': './assets/icons/code.png'},
-            {'nombre': 'CSS', 'img': './assets/icons/css.png'},
-            {'nombre': 'JS', 'img': './assets/icons/java-script.png'}
-        ]
-    },
-    {
-        'img':'assets/img/projects/Salesforce.png',
-        'title':'Proyectos varios',
-        'subtitle': 'En Salesforce',
         'year':'2023-2025',
         'titleIcon': './assets/icons/salesforce.png',
         'openCode' : false,
@@ -269,7 +115,7 @@ let projectsEN = [
     {
         'img':'assets/img/projects/AyL_Reservas_Page.png',
         'title':'A&L Eventos Reservas',
-        'subtitle': 'Events Web Administrator',
+        'subtitle': 'Administrador de Eventos Web',
         'year':'2022',
         'titleIcon': './assets/icons/ayl.png',
         'openCode' : true,
@@ -320,14 +166,14 @@ let projectsEN = [
     },
     {
         'img':'assets/img/projects/RPMotos_Page.png',
-        'title':'RPMotos',
+        'title':'RPMotos Website',
         'subtitle': 'Business Page',
         'year':'2021',
         'titleIcon': './assets/icons/RPMotos.png',
         'openCode' : true,
         'buttonLabel' : 'Project',
         'codeIcon': 'M24 12l-5.657 5.657-1.414-1.414L21.172 12l-4.243-4.243 1.414-1.414L24 12zM2.828 12l4.243 4.243-1.414 1.414L0 12l5.657-5.657L7.07 7.757 2.828 12zm6.96 9H7.66l6.552-18h2.128L9.788 21z',
-        'description':'Landing page de contacto de la empresa RPMotos, dedicada a la venta de repuestos de motocicletas. Muestra información breve de contacto.',
+        'description':'Landing page de contacto de la empresa RPMotos, especializada en la venta de repuestos para motocicletas. Esta página web sencilla presenta información esencial sobre el negocio, incluyendo datos de contacto, ubicación y formas de comunicación para facilitar el acceso a sus servicios.',
         'projectUrl': 'https://agustinmendez25.github.io/Rpmotos/',
         'projectUrlTarget': '_blank',
         'codeUrl': 'https://github.com/AgustinMendez25/Rpmotos',
@@ -348,9 +194,139 @@ let projectsEN = [
         'year':'2021',
         'titleIcon': './assets/icons/RPMotos.png',
         'openCode' : true,
-        'buttonLabel' : 'Demo',
+        'buttonLabel' : 'Project',
         'codeIcon': 'M24 12l-5.657 5.657-1.414-1.414L21.172 12l-4.243-4.243 1.414-1.414L24 12zM2.828 12l4.243 4.243-1.414 1.414L0 12l5.657-5.657L7.07 7.757 2.828 12zm6.96 9H7.66l6.552-18h2.128L9.788 21z',
         'description':'Proyecto personal de e-commerce para la empresa RPMotos. Este sitio cuenta con un catalogo de productos desarrollado desde cero que permite filtrar por categorías, orden y nombre de producto. Además, incluye un sistema de inicio de sesión y carrito de compras con el cual se puede navegar y guardar distintos productos para solicitar un presupuesto completo de los mismos.',
+        'projectUrl': 'https://rpmotos-completa.vercel.app/',
+        'projectUrlTarget': '_blank',
+        'codeUrl': 'https://github.com/AgustinMendez25/RpmotosCompleta',
+        'participationList':[
+            'Análisis Funcional',
+            'Análisis Técnico',
+            'Desarrollo Backend'
+        ],
+        'technologiesList':[
+            {'nombre': 'HTML', 'img': './assets/icons/code.png'},
+            {'nombre': 'CSS', 'img': './assets/icons/css.png'},
+            {'nombre': 'JS', 'img': './assets/icons/java-script.png'},
+            {'nombre': 'PHP', 'img': './assets/icons/php.png'},
+            {'nombre': 'SQL', 'img': './assets/icons/mysql.png'}
+        ]
+    }
+]
+
+let projectsEN = [
+    {
+        'img':'assets/img/projects/Salesforce.png',
+        'title':'Various Salesforce projects',
+        'subtitle': 'Salesforce',
+        'year':'2023-2025',
+        'titleIcon': './assets/icons/salesforce.png',
+        'openCode' : false,
+        'buttonLabel' : 'Demo',
+        'codeIcon' : 'M19,8V7A7,7,0,0,0,5,7V8H2V21a3,3,0,0,0,3,3H19a3,3,0,0,0,3-3V8ZM7,7A5,5,0,0,1,17,7V8H7ZM20,21a1,1,0,0,1-1,1H5a1,1,0,0,1-1-1V10H20Z',
+        'description':'Compilation of code snippets used in various Salesforce projects. Most of them are related to backend tasks using Apex, along with their connection to the front end through JavaScript. Additionally, I have worked on the visual side using LWCs and some tools from Omnistudio and Vlocity.',
+        'projectUrl': 'salesforce_projects.html',
+        'projectUrlTarget': '',
+        'participationList':[
+            'Análisis Funcional',
+            'Análisis Técnico',
+            'Desarrollo Backend'
+        ],
+        'technologiesList':[
+            {'nombre': 'Salesforce', 'img': './assets/icons/salesforce.png'},
+            {'nombre': 'Apex', 'img': './assets/icons/apex.png'},
+            {'nombre': 'Vlocity', 'img': './assets/icons/vlocity.png'},
+            {'nombre': 'HTML', 'img': './assets/icons/code.png'},
+            {'nombre': 'CSS', 'img': './assets/icons/css.png'},
+            {'nombre': 'JS', 'img': './assets/icons/java-script.png'}
+        ]
+    },
+    {
+        'img':'assets/img/projects/AyL_Reservas_Page.png',
+        'title':'A&L Eventos Reservas',
+        'subtitle': 'Events Web Administrator',
+        'year':'2022',
+        'titleIcon': './assets/icons/ayl.png',
+        'openCode' : true,
+        'buttonLabel' : 'Demo',
+        'codeIcon': 'M24 12l-5.657 5.657-1.414-1.414L21.172 12l-4.243-4.243 1.414-1.414L24 12zM2.828 12l4.243 4.243-1.414 1.414L0 12l5.657-5.657L7.07 7.757 2.828 12zm6.96 9H7.66l6.552-18h2.128L9.788 21z',
+        'description':'Web project for \"A&L Eventos\", a company that offers catering and pizza party services for events. This website provides a CRUD system to manage the company\'s events. Its simple design and interface allow the client to easily manipulate data by displaying each event as an editable card. The project also required modifications to the existing client database used on their website.',
+        'projectUrl': 'https://ayleventosreservaswebdemo.vercel.app/',
+        'projectUrlTarget': '_blank',
+        'codeUrl': 'https://github.com/AgustinMendez25/AyL_Eventos_Reservas_Web_Demo_Publico',
+        'participationList':[
+            'Análisis Funcional',
+            'Análisis Técnico',
+            'Desarrollo Backend'
+        ],
+        'technologiesList':[
+            {'nombre': 'HTML', 'img': './assets/icons/code.png'},
+            {'nombre': 'CSS', 'img': './assets/icons/css.png'},
+            {'nombre': 'JS', 'img': './assets/icons/java-script.png'},
+            {'nombre': 'PHP', 'img': './assets/icons/php.png'},
+            {'nombre': 'SQL', 'img': './assets/icons/mysql.png'}
+        ]
+    },
+    {
+        'img':'assets/img/projects/AyL_Page.png',
+        'title':'A&L Eventos',
+        'subtitle': 'Business Page',
+        'year':'2021',
+        'titleIcon': './assets/icons/ayl.png',
+        'openCode' : true,
+        'buttonLabel' : 'Project',
+        'codeIcon': 'M24 12l-5.657 5.657-1.414-1.414L21.172 12l-4.243-4.243 1.414-1.414L24 12zM2.828 12l4.243 4.243-1.414 1.414L0 12l5.657-5.657L7.07 7.757 2.828 12zm6.96 9H7.66l6.552-18h2.128L9.788 21z',
+        'description':'Website for \"A&L Eventos\", a company that offers catering and pizza party services for events. This site includes different sections with relevant information, such as the news section, catering packages, gallery and contact, allowing users to easily explore and understand the company\'s offerings.',
+        'projectUrl': 'https://ayl-eventos.vercel.app/',
+        'projectUrlTarget': '_blank',
+        'codeUrl': 'https://github.com/AgustinMendez25/AyL_Eventos_Publico',
+        'participationList':[
+            'Análisis Funcional',
+            'Análisis Técnico',
+            'Desarrollo Backend'
+        ],
+        'technologiesList':[
+            {'nombre': 'HTML', 'img': './assets/icons/code.png'},
+            {'nombre': 'CSS', 'img': './assets/icons/css.png'},
+            {'nombre': 'JS', 'img': './assets/icons/java-script.png'},
+            {'nombre': 'PHP', 'img': './assets/icons/php.png'},
+            {'nombre': 'SQL', 'img': './assets/icons/mysql.png'}
+        ]
+    },
+    {
+        'img':'assets/img/projects/RPMotos_Page.png',
+        'title':'RPMotos Website',
+        'subtitle': 'Business Page',
+        'year':'2021',
+        'titleIcon': './assets/icons/RPMotos.png',
+        'openCode' : true,
+        'buttonLabel' : 'Project',
+        'codeIcon': 'M24 12l-5.657 5.657-1.414-1.414L21.172 12l-4.243-4.243 1.414-1.414L24 12zM2.828 12l4.243 4.243-1.414 1.414L0 12l5.657-5.657L7.07 7.757 2.828 12zm6.96 9H7.66l6.552-18h2.128L9.788 21z',
+        'description':'Landing page for "RPMotos", a motorcycle spare parts store. This simple website provides essential business information, including contact details, location, and communication options to facilitate access to its services.',
+        'projectUrl': 'https://agustinmendez25.github.io/Rpmotos/',
+        'projectUrlTarget': '_blank',
+        'codeUrl': 'https://github.com/AgustinMendez25/Rpmotos',
+        'participationList':[
+            'Análisis Funcional',
+            'Análisis Técnico',
+            'Desarrollo Backend'
+        ],
+        'technologiesList':[
+            {'nombre': 'HTML', 'img': './assets/icons/code.png'},
+            {'nombre': 'CSS', 'img': './assets/icons/css.png'},
+        ]
+    },
+    {
+        'img':'assets/img/projects/RPMotosCompleta_Page.png',
+        'title':'RPMotos E-Commerce',
+        'subtitle': 'E-Commerce',
+        'year':'2021',
+        'titleIcon': './assets/icons/RPMotos.png',
+        'openCode' : true,
+        'buttonLabel' : 'Project',
+        'codeIcon': 'M24 12l-5.657 5.657-1.414-1.414L21.172 12l-4.243-4.243 1.414-1.414L24 12zM2.828 12l4.243 4.243-1.414 1.414L0 12l5.657-5.657L7.07 7.757 2.828 12zm6.96 9H7.66l6.552-18h2.128L9.788 21z',
+        'description':'Personal e-commerce project for "RPMotos" business. This site includes a product catalog developed from scratch, with filters for categories, sorting, and product name. Additionally, it includes a login system and a shopping cart, allowing users to browse, save products, and request a complete quote.',
         'projectUrl': 'https://rpmotos-completa.vercel.app/',
         'projectUrlTarget': '_blank',
         'codeUrl': 'https://github.com/AgustinMendez25/RpmotosCompleta',
